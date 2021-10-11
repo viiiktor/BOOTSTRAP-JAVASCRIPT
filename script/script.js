@@ -66,7 +66,7 @@ for (let i = 0; i < cars.length; i++) {
     console.log(cars[i].name + cars[i].car_img + cars[i].Price);
     document.getElementById('gallery').innerHTML += `
         <div class="col-md-6 col-lg-3 col-sm-12 mt-5">
-            <div class="card" style="width:270px; ">
+            <div class="card">
                 <img class="card-img-top" src="`+cars[i].car_img+`" alt="Card image">
                 <div class="card-body">
                     <h4 class="card-title">`+cars[i].name+`</h4>
