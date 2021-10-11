@@ -1,0 +1,15 @@
+*{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.hero-bg{
+    background-image: url('../images/peter-broomfield-m3m-lnR90uM-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-img-top{
+    height: 320px;
+    object-fit: cover;
+}
